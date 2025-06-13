@@ -8,7 +8,7 @@ import os
 
 WIDTH = 900
 HEIGHT = 600
-TITLE = 'SHOOT ME!!'
+TITLE = 'Space Hunter'
 
 enemys=[]
 missiles=[]
@@ -244,7 +244,7 @@ def draw():
             missile.draw()
 
     if gamemode == 0:  #タイトル画面
-        screen.draw.text("SHOOT ME!!",(WIDTH / 4,HEIGHT  / 3),color='YELLOW',owidth=1,fontsize=100)
+        screen.draw.text("Space Hunter",(WIDTH / 4,HEIGHT  / 3),color='YELLOW',owidth=1,fontsize=100)
         if gamecount >= 30 and gamecount < 60:
             push.draw()
         if gamecount >= 60:
